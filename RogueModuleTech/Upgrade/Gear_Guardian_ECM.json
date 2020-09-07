@@ -7,11 +7,11 @@
         ],
         "BonusDescriptions": {
             "Bonuses": [
-                "IsECM: 3, 150",
-                "Jammer: 3, 210",
+                "IsECM: 2, 150",
+                "Jammer: 2, 180",
                 "ECCMMode",
-                "ECCMStrength: 3, 210",
-                "ECCMFriendly: 3, 150"
+                "ECCMStrength: 3, 150",
+                "ECCMFriendly: 3, 180"
             ]
         },
         "InventorySorter": {
@@ -115,7 +115,7 @@
                     "statisticData": {
                         "statName": "LV_ECM_SHIELD",
                         "operation": "Int_Add",
-                        "modValue": "3",
+                        "modValue": "2",
                         "modType": "System.Int32"
                     },
                     "nature": "Buff"
@@ -126,7 +126,7 @@
             "Id": "Gear_GECM_ECM_JAMMER",
             "Name": "JAMMER",
             "ReticleColor": "#0066ff",
-            "Range": 210,
+            "Range": 180,
             "HideOnNotSelected": false,
             "RemoveOnSensorLock": false,
             "State": "Online",
@@ -170,7 +170,7 @@
                     "statisticData": {
                         "statName": "LV_ECM_JAMMED",
                         "operation": "Int_Add",
-                        "modValue": "3",
+                        "modValue": "2",
                         "modType": "System.Int32"
                     },
                     "nature": "Debuff"
@@ -224,7 +224,7 @@
                     "statisticData": {
                         "statName": "LV_ECM_SHIELD",
                         "operation": "Int_Add",
-                        "modValue": "-3",
+                        "modValue": "-2",
                         "modType": "System.Int32"
                     },
                     "nature": "Debuff"
@@ -235,7 +235,7 @@
             "Id": "Gear_GECM_ECCM_JAMMER",
             "Name": "ECCM Protect",
             "ReticleColor": "#0066ff",
-            "Range": 150,
+            "Range": 180,
             "HideOnNotSelected": false,
             "RemoveOnSensorLock": false,
             "State": "Offline",
@@ -279,7 +279,7 @@
                     "statisticData": {
                         "statName": "LV_ECM_JAMMED",
                         "operation": "Int_Add",
-                        "modValue": "-3",
+                        "modValue": "-2",
                         "modType": "System.Int32"
                     },
                     "nature": "Buff"
