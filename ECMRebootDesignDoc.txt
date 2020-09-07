@@ -1,0 +1,45 @@
+Unblinding Enemies / ECM Nerf
+
+Preamble: It should be noticed that our ECM system in no way resembles the tabletop one.
+ It can't do any of the things the tabletop one does, and it does a lot of things CGL never dreamed of.
+ On tabletop ECM is a minor support item that can interfere with C3, Artemis targeting etc. TacOps has rules for turning that off and making opposed rolls to create "Sensor Ghosts", and running an ECM may make you safer but it's noisy and makes you easier to detect.
+ In our system it's become a damage reduction behemoth, giving passive defense bonuses, making units hard to lock onto or detect at all.
+At some point we conflated ECM with Stealth Armor and it snowballed.
+
+Assertion: Something in general is wrong with AI not being able to hit things. Strong evidence in Baraduls recent playtrhoughs from midgame on. He's probably been at meaningful risk in one out of the last six episodes. Not because he plays carefully but because almost every enemy shot misses. And his mechs generally have 2 evasion. My primary suspect is strong ECM and ECM stacking. He has it on all his mechs, including things like Warfare Suite MkII.
+I've observed other players and noticed that the enemy AI has no idea what to do and often moves at random without firing when confronted with 8 ECM equiped mechs.
+
+Late game ECM is breaking the entire combat game. We have exploitable results similar to HBS implementation just with more opaque mechanics and not mounted on a squishy mech.
+
+Question for consideration: Regardless of exact balance, is ECM fundamentally doing the kind of thing we want?
+
+Proposals:
+
+Remove visibility reductions from anything that isn't memetic stealth.
+The Mk1 Eyeball should be the natural counter to sophisticated sensor jammming. 
+Just as sensors should be the counter to something being in the fog at night.
+
+Remove Signature reductions from the unit *carrying* the ECM; you can't hide your presense while jamming. Tha'ts literally what stealth is for.
+
+Set up stealth to put ECM into a non-broadcast mode when stealth is active. So you can't have a full company of stealth armored units that also have heavy ovelapping ECM coverage.
+
+Remove flat defense bonuses from ECM, like the +1 for the carrier on Guardian.
+Successfully denying sensor info *is* a defense bonus. ECM Shield is a defense bonus. +1 defense is a legacy feature. 
+
+Reduce ECM ranges to no more than tabletop values. Currently our Angel has effects out to 360 meters. 
+It's 180 in CBT. Make players have to actually cluster tight to get overlapping coverage. 
+So it's a tactical decision not something they can barely avoid if they tried.
+It should also require effort to get jamming onto an enemy.
+Not having them forced to blunder into it by simply approaching weapons range.
+
+Add in the noisy ecm carrier effects lowvis uses so you fundamentally can't hide while screaming on all bands.
+
+Reduce maximum details penalty in low-vis settings.
+
+Make Stealth armor disable ECM fields if it doesn't already.
+
+WpnAccuracy
+
+Tangentially related:
+	Increase minimum detection ranges for all units, ensuring units are more likely to be aware of enemies 	and make smart positioning decisions. The AI has no memory. It's gotta have at least a blip to move toward or it breaks.
+
