@@ -7,7 +7,6 @@
         ],
         "BonusDescriptions": {
             "Bonuses": [
-                "ECMDefense: +1",
                 "IsECM: 3, 150",
                 "Jammer: 3, 210",
                 "ECCMMode",
@@ -39,34 +38,7 @@
                     ]
                 }
             },
-            "statusEffects": [
-                {
-                    "durationData": {
-                        "duration": -1,
-                        "stackLimit": -1
-                    },
-                    "targetingData": {
-                        "effectTriggerType": "Passive",
-                        "effectTargetType": "Creator",
-                        "showInTargetPreview": false,
-                        "showInStatusPanel": false
-                    },
-                    "effectType": "StatisticEffect",
-                    "Description": {
-                        "Id": "GECMInterference",
-                        "Name": "GECM Interference",
-                        "Details": "Guardian ECM making this unit harder to hit.",
-                        "Icon": "uixSvgIcon_equipment_Gyro"
-                    },
-                    "nature": "Buff",
-                    "statisticData": {
-                        "statName": "ToHitThisActor",
-                        "operation": "Float_Add",
-                        "modValue": "1.0",
-                        "modType": "System.Single"
-                    }
-                }
-            ],
+            "statusEffects": [],
             "offlineStatusEffects": []
         }
     },
@@ -85,8 +57,8 @@
         "Details": "The Guardian ECM Suite was introduced in 2597 by Johnston Industries of the Terran Hegemony. Designed to interfere with guided weaponry, targeting computers, and communication systems, the Guardian was typically used to shield allied units from such equipment by emitting a broad-band signal meant to confuse radar, infrared, ultraviolet, magscan and sonar sensors.",
         "Icon": "ECMGear"
     },
-    "BonusValueA": "+2 Defense.",
-    "BonusValueB": "+1 Missile Defense.",
+    "BonusValueA": "",
+    "BonusValueB": "",
     "ComponentType": "Upgrade",
     "ComponentSubType": "Prototype_ElectronicWarfare",
     "PrefabIdentifier": "",
@@ -199,36 +171,6 @@
                         "statName": "LV_ECM_JAMMED",
                         "operation": "Int_Add",
                         "modValue": "3",
-                        "modType": "System.Int32"
-                    },
-                    "nature": "Debuff"
-                },
-                {
-                    "durationData": {
-                        "duration": -1,
-                        "stackLimit": -1
-                    },
-                    "targetingData": {
-                        "effectTriggerType": "Passive",
-                        "specialRules": "NotSet",
-                        "effectTargetType": "EnemiesWithinRange",
-                        "range": 0.0,
-                        "forcePathRebuild": false,
-                        "forceVisRebuild": false,
-                        "showInTargetPreview": false,
-                        "showInStatusPanel": false
-                    },
-                    "effectType": "StatisticEffect",
-                    "Description": {
-                        "Id": "LV_ECM_JAM_EMITTER_COUNT",
-                        "Name": "ECM Jamming Emitter Count",
-                        "Details": "Counter for the number of ECM emitters currently affecting an actor with jamming.",
-                        "Icon": "uixSvgIcon_status_ECM-missileDef"
-                    },
-                    "statisticData": {
-                        "statName": "LV_ECM_JAM_EMITTER_COUNT",
-                        "operation": "Int_Add",
-                        "modValue": "1",
                         "modType": "System.Int32"
                     },
                     "nature": "Debuff"
@@ -349,8 +291,7 @@
     "ComponentTags": {
         "items": [
             "component_type_stock",
-            "ElectronicCounterMeasures",
-            "lv-jammer_m2_r6"
+            "ElectronicCounterMeasures"
         ],
         "tagSetSourceFile": ""
     }
