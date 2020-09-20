@@ -345,8 +345,7 @@
     "ComponentTags" : {
         "items" : [
             "BLACKLISTED",
-		  "lv-shares-sensors",
-		  "lv-probe-boost_m4"
+		  "lv-shares-sensors"
 
         ],
         "tagSetSourceFile" : ""

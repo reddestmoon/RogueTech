@@ -175,8 +175,7 @@
 	],
     "ComponentTags": {
         "items": [
-            "component_type_stock",
-			"lv-probe-boost_m3"
+            "component_type_stock"
         ],
         "tagSetSourceFile": ""
     }
