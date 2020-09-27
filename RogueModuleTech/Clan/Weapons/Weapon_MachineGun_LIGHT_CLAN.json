@@ -12,7 +12,7 @@
                 "WpnAccuracy: +1",
                 "AccuracyUnit: Battle Armor",
                 "AccuracyUnit2: +10",
-                "MGJamChance: 10%"
+                "MGJamChance: 10%, 3"
             ]
         },
         "InventorySorter": {
@@ -31,7 +31,7 @@
     ],
     "AmmoCategory": "LMG",
     "StartingAmmoCapacity": 0,
-    "HeatGenerated": 1,
+    "HeatGenerated": 3,
     "Damage": 1,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,
@@ -55,7 +55,7 @@
     "Instability": 0.1,
     "WeaponEffectID": "WeaponEffect-Weapon_MachineGun",
     "Description": {
-        "Cost": 72000,
+        "Cost": 20000,
         "Rarity": 12,
         "Purchasable": true,
         "Manufacturer": "CLAN",
@@ -73,7 +73,7 @@
     "PrefabIdentifier": "MachineGun",
     "BattleValue": 5,
     "InventorySize": 1,
-    "Tonnage": 0.2,
+    "Tonnage": 0.25,
     "AllowedLocations": "All",
     "DisallowedLocations": "All",
     "ImprovedBallistic": true,

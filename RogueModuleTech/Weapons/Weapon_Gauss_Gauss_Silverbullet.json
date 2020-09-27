@@ -3,12 +3,13 @@
     "Category": [
       {
         "CategoryID": "w/a/g/sb"
-      }
+      },
+	  {"CategoryID": "CritsGauss6"}
     ],
     "ComponentExplosion": {
       "ExplosionDamagePerAmmo": 90,
       "StabilityDamagePerAmmo": 24,
-      "HeatDamagePerAmmo": 4
+      "HeatDamagePerAmmo": 48
     },
     "BonusDescriptions": {
       "Bonuses": [
@@ -17,7 +18,7 @@
         "PipsIgnored: 1",
         "WpnAccuracy: +1",
         "VariableDmg: 5",
-        "WeaponBoom: 90",
+        "WeaponGaussBoom: 90",
         "SBGR: 6"
       ]
     },

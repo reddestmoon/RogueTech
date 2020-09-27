@@ -1,5 +1,17 @@
 {
   "Settings": [
+  {
+      "Bonus": "JamChanceMultiplier",
+      "Short": "{0} Jam",
+      "Long": "{0} Jam",
+      "Full": "{0} Multiplier to Jam Chance"
+    },
+	{
+      "Bonus": "JamChanceModifier",
+      "Short": "{0} Jam",
+      "Long": "{0} Jam",
+      "Full": "{0} Modifier to Jam Chance"
+    },
     {
       "Bonus": "FAILSAFEBOX",
       "Short": "FAILSAFE",
@@ -219,8 +231,8 @@
     {
       "Bonus": "MineClearanceBoom",
       "Short": "Mine Clear",
-      "Long": "Mine Clearance Radius",
-      "Full": "High Explosives remove mines within a {0} hex radius of impact"
+      "Long": "{0} Mine Clearance",
+      "Full": "High Explosive removes mines in a {0} hex radius."
     },
     {
       "Bonus": "RemoteSensorLRM",
@@ -470,9 +482,15 @@
     },
     {
       "Bonus": "MGJamChance",
-      "Short": "{0} Jam Per Shot",
+      "Short": "{0} Jam",
       "Long": "{0} Jam Per Shot",
-      "Full": "Weapon has a {0} jam chance per shot above 3"
+      "Full": "Weapon has a {0} jam chance per shot above {1}."
+    },    
+    {
+      "Bonus": "MGRecoilShot",
+      "Short": "{0} Recoil",
+      "Long": "{0} Recoil Per Shot",
+      "Full": "This weapon has a recoil of {0} per shot above {1}."
     },
     {
       "Bonus": "MisfireChanceMode1",
@@ -652,10 +670,16 @@
       "Bonus": "DakkaBoom",
       "Short": "Volatile",
       "Long": "Volatile Ammo Feed",
-      "Full": "Weapon can explode for {0} damage per shot loaded when Destroyed"
+      "Full": "Weapon can explode for {0} damage per shot loaded when destroyed"
     },
     {
-      "Bonus": "WeaponBoom",
+      "Bonus": "WeaponGaussBoom",
+      "Short": "Volatile",
+      "Long": "Volatile Capacitors",
+      "Full": "High-Energy Capacitors discharge violently for {0} damage per shot loaded when destroyed"
+    },
+    {
+      "Bonus": "CapacitorBoom",
       "Short": "Volatile",
       "Long": "Volatile Capacitors",
       "Full": "High-Energy Capacitors discharge violently for {0} damage when destroyed"

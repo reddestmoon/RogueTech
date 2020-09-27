@@ -3,7 +3,8 @@
     "Category": [
       {
         "CategoryID": "w/a/o/artillery"
-      }
+      },
+	  { "CategoryID": "CritsArtillery4" }
     ],
     "BonusDescriptions": {
       "Bonuses": [
@@ -112,6 +113,8 @@
       "UIName": "Indirect",
       "isBaseMode": true,
       "DirectFireModifier": 1.0,
+      "MinMissRadius": 15,
+      "MaxMissRadius": 60,
       "AlwaysIndirectVisuals": true,
       "IndirectFireCapable": true,
       "ForbiddenRange": 150
@@ -121,6 +124,7 @@
   "ComponentTags": {
     "items": [
       "OmniRestriction.{location}",
+	  "TurretRestriction.{location}",
       "HRifle.{location}",
       "component_type_stock",
       "range_extreme"

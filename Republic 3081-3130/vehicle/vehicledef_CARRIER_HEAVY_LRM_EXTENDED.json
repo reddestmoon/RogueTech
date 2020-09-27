@@ -35,9 +35,9 @@
   "Description": {
     "Id": "vehicledef_CARRIER_HEAVY_LRM_EXTENDED",
     "Name": "Heavy ER-LRM Carrier",
-    "Details": "Not designed for traditional combat, the Carrier is a force multiplier. Designed to support allies from range, the Carrier can hang back behind friendly lines where it's lack of armor isn't a concern.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fuel Cell: Improved vehicle engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 2/3 Hex: 60/90 Meters.</color></b>",
-    "Icon": "LRMcarrier",
-    "Cost": 8705400,
+    "Details": "Not designed for traditional combat, the Carrier is a force multiplier. Designed to support allies from range, the Carrier can hang back behind friendly lines where it's lack of armor isn't a concern.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Fuel Cell: Improved vehicle engine that works in a Vacuum.</color></b>\n\n <b><color=#ffcc00>Movement: 2/3 Hex: 60/90 Meters.</color></b>\n\n<b>Armor:</b> Hardened\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>        93     40\n<b>Left</b>          80     40\n<b>Right</b>        80     40\n<b>Rear</b>         70     40\n<b>Turret</b>       85     40\n\n<b>Total</b>      408    200\n",
+    "Icon": "HeavyLRMcarrier",
+    "Cost": 8736000,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -45,37 +45,37 @@
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 100,
+      "CurrentArmor": 93,
       "CurrentInternalStructure": 40,
-      "AssignedArmor": 100,
+      "AssignedArmor": 93,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Left",
-      "CurrentArmor": 100,
+      "CurrentArmor": 80,
       "CurrentInternalStructure": 40,
-      "AssignedArmor": 100,
+      "AssignedArmor": 80,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 100,
+      "CurrentArmor": 80,
       "CurrentInternalStructure": 40,
-      "AssignedArmor": 100,
+      "AssignedArmor": 80,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Rear",
-      "CurrentArmor": 100,
+      "CurrentArmor": 70,
       "CurrentInternalStructure": 40,
-      "AssignedArmor": 100,
+      "AssignedArmor": 70,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 90,
+      "CurrentArmor": 85,
       "CurrentInternalStructure": 40,
-      "AssignedArmor": 90,
+      "AssignedArmor": 85,
       "DamageLevel": "Functional"
     }
   ],
@@ -117,14 +117,7 @@
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Ammo_AmmunitionBox_Deadfire_LRM",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Left",
-      "ComponentDefID": "Ammo_AmmunitionBox_Swarmi_LRM",
+      "ComponentDefID": "Ammo_AmmunitionBox_ER_LRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -138,48 +131,20 @@
     },
     {
       "MountedLocation": "Right",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Right",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM_double",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_ER_LRM",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_ER_LRM",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_SAM_LRM",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Turret",
       "ComponentDefID": "Ammo_AmmunitionBox_FTL_LRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "Turret",
+      "MountedLocation": "Rear",
       "ComponentDefID": "Ammo_AmmunitionBox_FTL_LRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
@@ -235,7 +200,7 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "emod_armorslots_standard",
+      "ComponentDefID": "Gear_armorslots_Hardened",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1
     },
