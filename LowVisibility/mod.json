@@ -47,7 +47,7 @@
         "Vision" : {
             "BaseRangeBright" : 60,
             "BaseRangeDim" : 30,
-            "BaseRangeDark" : 5,
+            "BaseRangeDark" : 10,
             "RangeMultiRainSnow" : 0.5,
             "RangeMultiLightFog" : 0.5,
             "RangeMultiHeavyFog" : 0.5,
