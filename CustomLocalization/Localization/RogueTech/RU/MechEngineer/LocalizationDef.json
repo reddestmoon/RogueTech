@@ -23825,42 +23825,6 @@
       "processor": "MechEngineer.Settings.Short"
     },
     {
-      "id": "MechEngineer.ProbeTier.Full",
-      "original": "Tier {0} Active Probe",
-      "prevOriginal": "Tier {0} Active Probe",
-      "content": "Active Probe {0} уровня",
-      "localizatorComment": null,
-      "systemComment": "",
-      "backColor": "#FFFFFF",
-      "textColor": "#A5A5A5",
-      "filename": "BonusDescriptions_EWS",
-      "processor": "MechEngineer.Settings.Full"
-    },
-    {
-      "id": "MechEngineer.ProbeTier.Long",
-      "original": "Tier {0} Prove",
-      "prevOriginal": "Tier {0} Prove",
-      "content": "Зонд ур. {0}",
-      "localizatorComment": null,
-      "systemComment": "",
-      "backColor": "#F3F3F3",
-      "textColor": "#A5A5A5",
-      "filename": "BonusDescriptions_EWS",
-      "processor": "MechEngineer.Settings.Long"
-    },
-    {
-      "id": "MechEngineer.ProbeTier.Short",
-      "original": "T{0} Probe",
-      "prevOriginal": "T{0} Probe",
-      "content": "Зонд ур. {0}",
-      "localizatorComment": null,
-      "systemComment": "",
-      "backColor": "#FFFFFF",
-      "textColor": "#A5A5A5",
-      "filename": "BonusDescriptions_EWS",
-      "processor": "MechEngineer.Settings.Short"
-    },
-    {
       "id": "MechEngineer.Protected.Full",
       "original": "Ammo Bin has {0} reduced explosive potential",
       "prevOriginal": "Ammo Bin has {0} reduced explosive potential",

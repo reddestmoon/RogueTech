@@ -6652,15 +6652,6 @@
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_EWS.json",
-    "Original": "T{0} Probe",
-    "Commentary": "",
-    "Name": "RogueTech_Core.BonusDescriptions_EWS.ProbeTier.Short",
-    "Localization": {
-      "CULTURE_EN_US": "T{0} Probe"
-    }
-  },
-  {
-    "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_EWS.json",
     "Original": "A{0}R{1} CQB",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_EWS.CQBVisor.Short",
@@ -7246,15 +7237,6 @@
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_EWS.json",
-    "Original": "Tier {0} Prove",
-    "Commentary": "",
-    "Name": "RogueTech_Core.BonusDescriptions_EWS.ProbeTier.Long",
-    "Localization": {
-      "CULTURE_EN_US": "Tier {0} Prove"
-    }
-  },
-  {
-    "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_EWS.json",
     "Original": "A{0}R{1} CQBVisor",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_EWS.CQBVisor.Long",
@@ -7836,15 +7818,6 @@
     "Name": "RogueTech_Core.BonusDescriptions_EWS.SearchLight.Full",
     "Localization": {
       "CULTURE_EN_US": "Bonus of {0} to sensor detection to Enemys within {1} meters. Orange Circle.: provides additional sensor information"
-    }
-  },
-  {
-    "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_EWS.json",
-    "Original": "Tier {0} Active Probe",
-    "Commentary": "",
-    "Name": "RogueTech_Core.BonusDescriptions_EWS.ProbeTier.Full",
-    "Localization": {
-      "CULTURE_EN_US": "Tier {0} Active Probe"
     }
   },
   {

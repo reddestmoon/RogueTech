@@ -6211,15 +6211,6 @@
   },
   {
     "FileName": "\\Mods\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_EWS.json",
-    "Original": "T{0} Probe",
-    "Commentary": "",
-    "Name": "RogueTech_Core.BonusDescriptions_EWS.ProbeTier.Short",
-    "Localization": {
-      "CULTURE_RU_RU": "Зонд ур. {0}"
-    }
-  },
-  {
-    "FileName": "\\Mods\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_EWS.json",
     "Original": "{0} Bubble",
     "Commentary": null,
     "Name": "RogueTech_Core.BonusDescriptions_EWS.ProbeBubble.Short",
@@ -6922,15 +6913,6 @@
   },
   {
     "FileName": "\\Mods\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_EWS.json",
-    "Original": "Tier {0} Prove",
-    "Commentary": "",
-    "Name": "RogueTech_Core.BonusDescriptions_EWS.ProbeTier.Long",
-    "Localization": {
-      "CULTURE_RU_RU": "Зонд ур. {0}"
-    }
-  },
-  {
-    "FileName": "\\Mods\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_EWS.json",
     "Original": "{0} Probe Bubble",
     "Commentary": null,
     "Name": "RogueTech_Core.BonusDescriptions_EWS.ProbeBubble.Long",
@@ -7629,15 +7611,6 @@
     "Name": "RogueTech_Core.BonusDescriptions_EWS.ProbePower.Full",
     "Localization": {
       "CULTURE_RU_RU": "Бонус {0} к работе сенсоров: предоставляет дополнительную информацию"
-    }
-  },
-  {
-    "FileName": "\\Mods\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_EWS.json",
-    "Original": "Tier {0} Active Probe",
-    "Commentary": "",
-    "Name": "RogueTech_Core.BonusDescriptions_EWS.ProbeTier.Full",
-    "Localization": {
-      "CULTURE_RU_RU": "Active Probe {0} уровня"
     }
   },
   {
