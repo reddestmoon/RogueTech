@@ -27,7 +27,7 @@
         "Sight: +10%",
         "Resolve: +2",
         "C3: 1, 300",
-        "C3M: 2, 300",
+        "C3SensorDist: 2, 300",
         "ECMAccuracyDebuff: -1, 300",
         "IsECM: 2, 190",
         "Jammer: 3, 300",
