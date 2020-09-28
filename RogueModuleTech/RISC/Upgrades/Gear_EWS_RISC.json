@@ -36,7 +36,7 @@
                 "ECCMStrength: 3, 260",
                 "ECCMFriendly: 2, 260",
                 "C3: 1, 260",
-                "C3M: 1, 260",
+                "C3SensorDist: 1, 260",
                 "Sharer",
                 "UAV: 310, 2, 15",
                 "CapacitorBoom: 40"

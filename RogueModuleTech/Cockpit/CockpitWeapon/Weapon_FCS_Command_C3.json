@@ -11,7 +11,7 @@
         "BonusDescriptions": {
             "Bonuses": [
                 "C3: 3, 240",
-				"C3M: 2, 240",              
+				"C3SensorDist: 2, 240",              
 				"Sharer",
 				"TAG: 10",
                 "PipsIgnored: 2",

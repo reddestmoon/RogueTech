@@ -8,7 +8,7 @@
         "BonusDescriptions": {
             "Bonuses": [
                 "C3: 6, 360",
-                "C3M: 4, 360",
+                "C3SensorDist: 4, 360",
                 "Sharer"
             ]
         },

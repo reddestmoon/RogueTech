@@ -181,12 +181,6 @@
       "Full": "Bonus of {0} to sensor detection within {1} meters. Orange Circle.: provides additional sensor information"
     },
     {
-      "Bonus": "ProbeTier",
-      "Short": "T{0} Probe",
-      "Long": "Tier {0} Prove",
-      "Full": "Tier {0} Active Probe"
-    },
-    {
       "Bonus": "CQBVisor",
       "Short": "A{0}R{1} CQB",
       "Long": "A{0}R{1} CQBVisor",
@@ -229,16 +223,16 @@
       "Full": "C3 Unit: Reduces enemy Stealth, ECM, or Mimetic effects by {0} within {1} meters. Green Circle."
     },
     {
-      "Bonus": "C3M",
-      "Short": "C3M Unit",
-      "Long": "C3M Unit",
-      "Full": "C3M Unit: Increases Allies Sensors by {0} within {1} meters. Green Circle."
+      "Bonus": "C3SensorDist",
+      "Short": "C3 Sensors",
+      "Long": "C3 Sensors",
+      "Full": "C3 Unit: Increases Allies Sensors by {0} within {1} meters. Green Circle."
     },
     {
-      "Bonus": "C3S",
-      "Short": "C3 Unit",
-      "Long": "C3 Unit",
-      "Full": "C3 Unit: {0} to hit Enemies Easier to hit within {1} meters."
+      "Bonus": "C3Stacking",
+      "Short": "C3 Stacking",
+      "Long": "C3 Stacking",
+      "Full": "Increases enemy visibility and signature by {0} within Green Circle."
     },
     {
       "Bonus": "C3Master",
