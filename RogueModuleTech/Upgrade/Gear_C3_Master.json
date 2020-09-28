@@ -7,8 +7,9 @@
         ],
         "BonusDescriptions": {
             "Bonuses": [
-                "C3: 3, 240",
-                "C3M: 2, 240",
+                "C3: 3, 300",                
+                "C3Stacking: 10%",
+                "C3SensorDist: 2, 300",
                 "Sharer"
             ]
         },
@@ -31,7 +32,7 @@
         "Details": "Normally carried by a lance commander, the C3 Master unit offers greatly improved processing of tactical data over a standard C3 unit.",
         "Icon": "C3Systems"
     },
-    "BonusValueA": "+ 1 Morale Gain",
+    "BonusValueA": "",
     "BonusValueB": "",
     "ComponentType": "Upgrade",
     "ComponentSubType": "NotSet",
@@ -47,7 +48,7 @@
             "Id": "Gear_C3m",
             "Name": "C3m",
             "ReticleColor": "#00e600",
-            "Range": 240,
+            "Range": 300,
             "RemoveOnSensorLock": false,
             "State": "Persistent",
             "ApplySelf": false,
@@ -91,6 +92,58 @@
                         "modValue": "3",
                         "modType": "System.Int32"
                     }
+                },
+                {
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "targetingData": {
+                        "effectTriggerType": "Passive",
+                        "effectTargetType": "EnemiesWithinRange",
+                        "showInTargetPreview": false,
+                        "showInStatusPanel": false
+                    },
+                    "effectType": "StatisticEffect",
+                    "Description": {
+                        "Id": "C3-SigBoost",
+                        "Name": "Network Sensor aid",
+                        "Details": "Signature Statuseffect.",
+                        "Icon": "uixSvgIcon_equipment_TTS"
+                    },
+                    "nature": "Buff",
+                    "statisticData": {
+                        "statName": "SensorSignatureModifier",
+                        "operation": "Float_Multiply",
+                        "modValue": "1.1",
+                        "modType": "System.Single"
+                    }
+                },
+                {
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "targetingData": {
+                        "effectTriggerType": "Passive",
+                        "effectTargetType": "EnemiesWithinRange",
+                        "showInTargetPreview": false,
+                        "showInStatusPanel": false
+                    },
+                    "effectType": "StatisticEffect",
+                    "Description": {
+                        "Id": "C3-SightBoost",
+                        "Name": "Network Spotting Aid",
+                        "Details": "Visibility Statuseffect.",
+                        "Icon": "uixSvgIcon_equipment_TTS"
+                    },
+                    "nature": "Buff",
+                    "statisticData": {
+                        "statName": "SpottingVisibilityMultiplier",
+                        "operation": "Float_Multiply",
+                        "modValue": "1.1",
+                        "modType": "System.Single"
+                    }
                 }
             ]
         },
@@ -98,7 +151,7 @@
             "Id": "Gear_C3MS",
             "Name": "C3mS",
             "ReticleColor": "#ff9900",
-            "Range": 240,
+            "Range": 300,
             "RemoveOnSensorLock": false,
             "State": "Persistent",
             "ApplySelf": true,
