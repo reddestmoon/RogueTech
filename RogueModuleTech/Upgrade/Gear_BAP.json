@@ -32,8 +32,8 @@
         "Details": "The Beagle Active Probe (BAP) is a suite of enhancement technology that, when attached to general electronic sensors, enables the equipped unit to detect and classify other battlefield units whether they are camouflaged or even shut down, with the exception of conventional infantry.",
         "Icon": "ActiveProbe"
     },
-    "BonusValueA": "+1 Health/Resolve.",
-    "BonusValueB": "+20% Sensors/Sight",
+    "BonusValueA": "",
+    "BonusValueB": "",
     "ComponentType": "Upgrade",
     "ComponentSubType": "NotSet",
     "PrefabIdentifier": "",
@@ -117,9 +117,9 @@
             },
             "effectType": "StatisticEffect",
             "Description": {
-                "Id": "BAProbe",
+                "Id": "BAP-Sensor_Gain-T1",
                 "Name": "Beagle Probe",
-                "Details": "Increased Sight/Sensors",
+                "Details": "Increased Sensors by 20%",
                 "Icon": "uixSvgIcon_equipment_Cockpit"
             },
             "nature": "Buff",
@@ -145,7 +145,7 @@
             "Description": {
                 "Id": "BAP-Spotting_Gain-T1",
                 "Name": "SPOTTING DISTANCE INCREASED",
-                "Details": "Increases spotting distance by 50m.",
+                "Details": "Increases spotting distance by 10%",
                 "Icon": "uixSvgIcon_equipment_Cockpit"
             },
             "nature": "Buff",
