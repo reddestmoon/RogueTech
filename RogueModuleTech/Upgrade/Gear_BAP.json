@@ -7,10 +7,10 @@
         ],
         "BonusDescriptions": {
             "Bonuses": [
-                "Sensors: +10%",
-                "Sight: +15%",
+                "Sensors: +15%",
+                "Sight: +10%",
                 "IsProbe: 2",
-				"AdvancedSensors: 4"
+                "AdvancedSensors: 4"
             ]
         },
         "InventorySorter": {
@@ -44,69 +44,65 @@
     "DisallowedLocations": "All",
     "CriticalComponent": false,
     "statusEffects": [
-	{
-            "durationData" : {
+        {
+            "durationData": {
                 "duration": -1,
                 "stackLimit": -1
             },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "specialRules" : "NotSet",
-                "effectTargetType" : "Creator",
-                "range" : 0.0,
-                "forcePathRebuild" : false,
-                "forceVisRebuild" : true,
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : false
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0.0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": true,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
             },
-            "effectType" : "StatisticEffect",
-            "Description" :
-            {
-                "Id" : "LV_PROBE_CARRIER",
-                "Name" : "Active Probe (Passive)",
-                "Details" : "Reduces effectiveness of stealthed and ECM shielded units",
-                "Icon" : "uixSvgIcon_status_ECM-ghost"
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "LV_PROBE_CARRIER",
+                "Name": "Active Probe (Passive)",
+                "Details": "Reduces effectiveness of stealthed and ECM shielded units",
+                "Icon": "uixSvgIcon_status_ECM-ghost"
             },
-            "statisticData" : 
-            {
-                "statName" : "LV_PROBE_CARRIER",
+            "statisticData": {
+                "statName": "LV_PROBE_CARRIER",
                 "operation": "Int_Add",
                 "modValue": "2",
                 "modType": "System.Int32"
             },
-            "nature" : "Buff"
-        },		
-		   {
-            "durationData" : {
+            "nature": "Buff"
+        },
+        {
+            "durationData": {
                 "duration": -1,
                 "stackLimit": -1
             },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "specialRules" : "NotSet",
-                "effectTargetType" : "Creator",
-                "range" : 0.0,
-                "forcePathRebuild" : false,
-                "forceVisRebuild" : true,
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : false
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0.0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": true,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
             },
-            "effectType" : "StatisticEffect",
-            "Description" :
-            {
-                "Id" : "LV_ADVANCED_SENSORS",
-                "Name" : "Advanced Sensors",
-                "Details" : "Provides detailed information on enemy units",
-                "Icon" : "uixSvgIcon_status_ECM-ghost"
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "LV_ADVANCED_SENSORS",
+                "Name": "Advanced Sensors",
+                "Details": "Provides detailed information on enemy units",
+                "Icon": "uixSvgIcon_status_ECM-ghost"
             },
-            "statisticData" : 
-            {
-                "statName" : "LV_ADVANCED_SENSORS",
+            "statisticData": {
+                "statName": "LV_ADVANCED_SENSORS",
                 "operation": "Int_Add",
                 "modValue": "4",
                 "modType": "System.Int32"
             },
-            "nature" : "Buff"
+            "nature": "Buff"
         },
         {
             "durationData": {
@@ -130,7 +126,7 @@
             "statisticData": {
                 "statName": "SensorDistanceAbsolute",
                 "operation": "Float_Multiply",
-                "modValue": "1.1",
+                "modValue": "1.2",
                 "modType": "System.Single"
             }
         },
@@ -156,7 +152,7 @@
             "statisticData": {
                 "statName": "SpotterDistanceAbsolute",
                 "operation": "Float_Multiply",
-                "modValue": "1.15",
+                "modValue": "1.1",
                 "modType": "System.Single"
             }
         }
