@@ -7,12 +7,11 @@
         ],
         "BonusDescriptions": {
             "Bonuses": [
-                "Sensors: +20%",
+                "Sensors: +25%",
                 "Sight: +25%",
-                "Signature: +35%",
-                "Visibility: +15%",
+                "Signature: +25%",
                 "IsProbe: 3",
-				"AdvancedSensors: 2"
+				"AdvancedSensors: 5"
             ]
         },
         "InventorySorter": {
@@ -105,7 +104,7 @@
             {
                 "statName" : "LV_ADVANCED_SENSORS",
                 "operation": "Int_Add",
-                "modValue": "2",
+                "modValue": "5",
                 "modType": "System.Int32"
             },
             "nature" : "Buff"
@@ -132,7 +131,7 @@
             "statisticData": {
                 "statName": "SensorDistanceAbsolute",
                 "operation": "Float_Multiply",
-                "modValue": "1.2",
+                "modValue": "1.25",
                 "modType": "System.Single"
             }
         },
@@ -183,32 +182,6 @@
             "nature": "Buff",
             "statisticData": {
                 "statName": "SensorSignatureModifier",
-                "operation": "Float_Multiply",
-                "modValue": "1.35",
-                "modType": "System.Single"
-            }
-        },
-        {
-            "durationData": {
-                "duration": -1,
-                "stackLimit": -1
-            },
-            "targetingData": {
-                "effectTriggerType": "Passive",
-                "effectTargetType": "Creator",
-                "showInTargetPreview": false,
-                "showInStatusPanel": false
-            },
-            "effectType": "StatisticEffect",
-            "Description": {
-                "Id": "Angel-visi",
-                "Name": "Active Stealth Armor",
-                "Details": "Provides a +2 difficulty to hit bonus.",
-                "Icon": "uixSvgIcon_equipment_Gyro"
-            },
-            "nature": "Buff",
-            "statisticData": {
-                "statName": "SpottingVisibilityMultiplier",
                 "operation": "Float_Multiply",
                 "modValue": "1.25",
                 "modType": "System.Single"

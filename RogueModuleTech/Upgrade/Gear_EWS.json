@@ -17,15 +17,14 @@
         "BonusDescriptions": {
             "Bonuses": [
                 "Sensors: +15%",
-                "Sight: +20%",
+                "Sight: +10%",
                 "IsProbe: 2",
-                "AdvancedSensors: 2",
-                "ECMSignature: -10%",
-                "IsECM: 3, 190",
+                "AdvancedSensors: 4",
+                "IsECM: 2, 190",
                 "Jammer: 2, 260",
                 "ECMAccuracyDebuff: -1, 260",
                 "ECCMMode",
-                "ECCMStrength: 3, 190",
+                "ECCMStrength: 2, 190",
                 "ECCMFriendly: 2, 260",
                 "UAV: 310, 2, 15"
             ]
@@ -54,32 +53,7 @@
                     ]
                 }
             },
-            "statusEffects": [
-                {
-                    "durationData": {
-                        "duration": -1,
-                        "stackLimit": -1
-                    },
-                    "targetingData": {
-                        "effectTriggerType": "Passive",
-                        "effectTargetType": "Creator"
-                    },
-                    "effectType": "StatisticEffect",
-                    "Description": {
-                        "Id": "GEWS-Signature_Decrease_35",
-                        "Name": "REDUCED SENSOR SIGNATURE",
-                        "Details": "Sensor Signature reduced by 35%.",
-                        "Icon": "uixSvgIcon_equipment_TTS"
-                    },
-                    "nature": "Buff",
-                    "statisticData": {
-                        "statName": "SensorSignatureModifier",
-                        "operation": "Float_Multiply",
-                        "modValue": "0.9",
-                        "modType": "System.Single"
-                    }
-                }
-            ],
+            "statusEffects": [],
             "offlineStatusEffects": []
         }
     },
@@ -156,7 +130,7 @@
                     "statisticData": {
                         "statName": "LV_ECM_SHIELD",
                         "operation": "Int_Add",
-                        "modValue": "3",
+                        "modValue": "2",
                         "modType": "System.Int32"
                     },
                     "nature": "Buff"
@@ -219,8 +193,7 @@
                 {
                     "durationData": {
                         "duration": -1,
-                        "stackLimit": -1,
-                        "uniqueEffectIdStackLimit": 1
+                        "stackLimit": -1
                     },
                     "targetingData": {
                         "effectTriggerType": "Passive",
@@ -296,7 +269,7 @@
                     "statisticData": {
                         "statName": "LV_ECM_SHIELD",
                         "operation": "Int_Add",
-                        "modValue": "-3",
+                        "modValue": "-2",
                         "modType": "System.Int32"
                     },
                     "nature": "Debuff"
@@ -328,8 +301,7 @@
                 {
                     "durationData": {
                         "duration": -1,
-                        "stackLimit": -1,
-                        "uniqueEffectIdStackLimit": 1
+                        "stackLimit": -1
                     },
                     "targetingData": {
                         "effectTriggerType": "Passive",
@@ -433,7 +405,7 @@
             "statisticData": {
                 "statName": "LV_ADVANCED_SENSORS",
                 "operation": "Int_Add",
-                "modValue": "2",
+                "modValue": "4",
                 "modType": "System.Int32"
             },
             "nature": "Buff"
@@ -482,7 +454,7 @@
             "statisticData": {
                 "statName": "SpotterDistanceAbsolute",
                 "operation": "Float_Multiply",
-                "modValue": "1.2",
+                "modValue": "1.1",
                 "modType": "System.Single"
             }
         }

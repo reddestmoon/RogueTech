@@ -10,8 +10,8 @@
                 "IsECM: 2, 150",
                 "Jammer: 2, 180",
                 "ECCMMode",
-                "ECCMStrength: 3, 150",
-                "ECCMFriendly: 3, 180"
+                "ECCMStrength: 2, 150",
+                "ECCMFriendly: 2, 180"
             ]
         },
         "InventorySorter": {
