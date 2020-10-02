@@ -7,11 +7,11 @@
         ],
         "BonusDescriptions": {
             "Bonuses": [
-                "IsECM: 4, 190",
-                "Jammer: 4, 360",
+                "IsECM: 4, 180",
+                "Jammer: 4, 180",
                 "ECCMMode",
-                "ECCMStrength: 4, 190",
-                "ECCMFriendly: 4, 360"
+                "ECCMStrength: 4, 180",
+                "ECCMFriendly: 4, 180"
             ]
         },
         "InventorySorter": {
@@ -73,7 +73,7 @@
             "Id": "Gear_AECM_ECM",
             "Name": "ECM",
             "ReticleColor": "#00f2ff",
-            "Range": 190,
+            "Range": 180,
             "RemoveOnSensorLock": false,
             "State": "Online",
             "ApplySelf": true,
@@ -126,7 +126,7 @@
             "Id": "Gear_AECM_ECM_JAMMER",
             "Name": "JAMMER",
             "ReticleColor": "#0066ff",
-            "Range": 360,
+            "Range": 180,
             "HideOnNotSelected": false,
             "RemoveOnSensorLock": false,
             "State": "Online",
@@ -180,7 +180,7 @@
             "Id": "Gear_AECM_ECCM",
             "Name": "ECCM",
             "ReticleColor": "#a31aff",
-            "Range": 190,
+            "Range": 180,
             "HideOnNotSelected": false,
             "RemoveOnSensorLock": false,
             "State": "Offline",
@@ -234,7 +234,7 @@
             "Id": "Gear_AECM_ECCM_JAMMER",
             "Name": "ECCM Protect",
             "ReticleColor": "#a31aff",
-            "Range": 360,
+            "Range": 180,
             "HideOnNotSelected": false,
             "RemoveOnSensorLock": false,
             "State": "Offline",

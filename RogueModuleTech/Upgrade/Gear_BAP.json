@@ -7,9 +7,9 @@
         ],
         "BonusDescriptions": {
             "Bonuses": [
+                "IsProbe: 2",
                 "Sensors: +15%",
                 "Sight: +10%",
-                "IsProbe: 2",
                 "AdvancedSensors: 4"
             ]
         },

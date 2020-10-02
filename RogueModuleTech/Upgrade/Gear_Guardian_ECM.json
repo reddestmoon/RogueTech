@@ -7,10 +7,10 @@
         ],
         "BonusDescriptions": {
             "Bonuses": [
-                "IsECM: 2, 150",
+                "IsECM: 2, 180",
                 "Jammer: 2, 180",
                 "ECCMMode",
-                "ECCMStrength: 2, 150",
+                "ECCMStrength: 2, 180",
                 "ECCMFriendly: 2, 180"
             ]
         },
@@ -73,7 +73,7 @@
             "Id": "Gear_GECM_ECM",
             "Name": "ECM",
             "ReticleColor": "#00f2ff",
-            "Range": 150,
+            "Range": 180,
             "RemoveOnSensorLock": false,
             "State": "Online",
             "ApplySelf": true,
@@ -180,7 +180,7 @@
             "Id": "Gear_GECM_ECCM_SHIELD",
             "Name": "ECCM",
             "ReticleColor": "#a31aff",
-            "Range": 150,
+            "Range": 180,
             "HideOnNotSelected": false,
             "RemoveOnSensorLock": false,
             "State": "Offline",
