@@ -8,7 +8,7 @@
         "BonusDescriptions": {
             "Bonuses": [
                 "C3: 1, 300",
-                "C3Stacking: 10%",
+                "C3Stacking: 20%",
                 "Sharer"
             ]
         },
@@ -114,7 +114,7 @@
                     "statisticData": {
                         "statName": "SensorSignatureModifier",
                         "operation": "Float_Multiply",
-                        "modValue": "1.1",
+                        "modValue": "1.2",
                         "modType": "System.Single"
                     }
                 },
@@ -140,7 +140,7 @@
                     "statisticData": {
                         "statName": "SpottingVisibilityMultiplier",
                         "operation": "Float_Multiply",
-                        "modValue": "1.1",
+                        "modValue": "1.2",
                         "modType": "System.Single"
                     }
                 }
