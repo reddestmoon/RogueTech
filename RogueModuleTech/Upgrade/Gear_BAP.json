@@ -10,7 +10,9 @@
                 "IsProbe: 2",
                 "Sensors: +15%",
                 "Sight: +10%",
-                "AdvancedSensors: 4"
+                "AdvancedSensors: 4",
+                "C3: 1, 120",
+                "C3Stacking: 10%"
             ]
         },
         "InventorySorter": {
@@ -43,6 +45,111 @@
     "AllowedLocations": "All",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
+    "Auras": [
+        {
+            "Id": "Gear_C3",
+            "Name": "C3",
+            "ReticleColor": "#00e600",
+            "Range": 120,
+            "RemoveOnSensorLock": false,
+            "State": "Persistent",
+            "ApplySelf": false,
+            "AllyStealthAffection": "None",
+            "EnemyStealthAffection": "NegativeOne",
+            "IsPositiveToAlly": false,
+            "IsNegativeToEnemy": true,
+            "ownerVFX": [],
+            "targetVFX": [],
+            "removeOwnerVFX": [],
+            "removeTargetVFX": [],
+            "ownerSFX": [],
+            "targetSFX": [],
+            "removeOwnerSFX": [],
+            "removeTargetSFX": [],
+            "statusEffects": [
+                {
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "targetingData": {
+                        "effectTriggerType": "Passive",
+                        "specialRules": "NotSet",
+                        "effectTargetType": "EnemiesWithinRange",
+                        "range": 0.0,
+                        "showInTargetPreview": false,
+                        "showInStatusPanel": false
+                    },
+                    "effectType": "StatisticEffect",
+                    "Description": {
+                        "Id": "C3-Probe",
+                        "Name": "C3 Sensor Information",
+                        "Details": "Shares Sensor Information on nearby Targets",
+                        "Icon": "uixSvgIcon_equipment_Cockpit"
+                    },
+                    "nature": "Buff",
+                    "statisticData": {
+                        "statName": "LV_PROBE_PING",
+                        "operation": "Int_Add",
+                        "modValue": "1",
+                        "modType": "System.Int32"
+                    }
+                },
+                {
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "targetingData": {
+                        "effectTriggerType": "Passive",
+                        "effectTargetType": "EnemiesWithinRange",
+                        "showInTargetPreview": false,
+                        "showInStatusPanel": false
+                    },
+                    "effectType": "StatisticEffect",
+                    "Description": {
+                        "Id": "C3-SigBoost",
+                        "Name": "Network Sensor aid",
+                        "Details": "Signature Statuseffect.",
+                        "Icon": "uixSvgIcon_equipment_TTS"
+                    },
+                    "nature": "Buff",
+                    "statisticData": {
+                        "statName": "SensorSignatureModifier",
+                        "operation": "Float_Multiply",
+                        "modValue": "1.1",
+                        "modType": "System.Single"
+                    }
+                },
+                {
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "targetingData": {
+                        "effectTriggerType": "Passive",
+                        "effectTargetType": "EnemiesWithinRange",
+                        "showInTargetPreview": false,
+                        "showInStatusPanel": false
+                    },
+                    "effectType": "StatisticEffect",
+                    "Description": {
+                        "Id": "C3-SightBoost",
+                        "Name": "Network Spotting Aid",
+                        "Details": "Visibility Statuseffect.",
+                        "Icon": "uixSvgIcon_equipment_TTS"
+                    },
+                    "nature": "Buff",
+                    "statisticData": {
+                        "statName": "SpottingVisibilityMultiplier",
+                        "operation": "Float_Multiply",
+                        "modValue": "1.1",
+                        "modType": "System.Single"
+                    }
+                }
+            ]
+        }
+    ],
     "statusEffects": [
         {
             "durationData": {
