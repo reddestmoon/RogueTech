@@ -22,9 +22,11 @@ Just as sensors should be the counter to something being in the fog at night.
 Remove Signature reductions from the unit *carrying* the ECM; you can't hide your presense while jamming. Tha'ts literally what stealth is for.
 
 Set up stealth to put ECM into a non-broadcast mode when stealth is active. So you can't have a full company of stealth armored units that also have heavy ovelapping ECM coverage.
+Make Stealth armor disable ECM fields if it doesn't already.
+	Not currently possible
 
 Remove flat defense bonuses from ECM, like the +1 for the carrier on Guardian.
-Successfully denying sensor info *is* a defense bonus. ECM Shield is a defense bonus. +1 defense is a legacy feature. 
+Successfully denying sensor info *is* a defense bonus. ECM Shield is a defense bonus. Flat constant defense bonuses are a legacy feature
 
 Reduce ECM ranges to no more than tabletop values. Currently our Angel has effects out to 360 meters. 
 It's 180 in CBT. Make players have to actually cluster tight to get overlapping coverage. 
@@ -36,10 +38,8 @@ Add in the noisy ecm carrier effects lowvis uses so you fundamentally can't hide
 
 Reduce maximum details penalty in low-vis settings.
 
-Make Stealth armor disable ECM fields if it doesn't already.
-
-WpnAccuracy
-
-Tangentially related:
-	Increase minimum detection ranges for all units, ensuring units are more likely to be aware of enemies 	and make smart positioning decisions. The AI has no memory. It's gotta have at least a blip to move toward or it breaks.
+Increase base sight and sensor rages to be comparable to CBT double-blind rules
+Especially sight, it makes really interesting play seeing units flicker in and out of visibility with rising and falling terrain.
+This makes AI units are more likely to be aware of enemies and able to make smart positioning decisions. The AI has no memory. 
+It's gotta have at least a blip to move toward or it breaks.
 
