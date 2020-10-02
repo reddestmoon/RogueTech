@@ -38,7 +38,38 @@
                     ]
                 }
             },
-            "statusEffects": [],
+            "statusEffects": [
+                {
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "targetingData": {
+                        "effectTriggerType": "Passive",
+                        "specialRules": "NotSet",
+                        "effectTargetType": "Creator",
+                        "range": 0.0,
+                        "forcePathRebuild": false,
+                        "forceVisRebuild": false,
+                        "showInTargetPreview": false,
+                        "showInStatusPanel": false
+                    },
+                    "effectType": "StatisticEffect",
+                    "Description": {
+                        "Id": "LV_ECM_CARRIER",
+                        "Name": "ECM_CARRIER_ECM",
+                        "Details": "IPSUM SUCKUM",
+                        "Icon": "uixSvgIcon_status_ECM-missileDef"
+                    },
+                    "statisticData": {
+                        "statName": "LV_ECM_CARRIER",
+                        "operation": "Int_Add",
+                        "modValue": "1",
+                        "modType": "System.Int32"
+                    },
+                    "nature": "Buff"
+                }
+            ],
             "offlineStatusEffects": []
         }
     },
@@ -76,7 +107,7 @@
             "Range": 180,
             "RemoveOnSensorLock": false,
             "State": "Online",
-            "ApplySelf": true,
+            "ApplySelf": false,
             "AllyStealthAffection": "PositiveOne",
             "EnemyStealthAffection": "None",
             "IsPositiveToAlly": true,
@@ -207,7 +238,7 @@
                         "effectTriggerType": "Passive",
                         "specialRules": "NotSet",
                         "effectTargetType": "EnemiesWithinRange",
-                        "range": 210.0,
+                        "range": 0.0,
                         "forcePathRebuild": false,
                         "forceVisRebuild": false,
                         "showInTargetPreview": false,
