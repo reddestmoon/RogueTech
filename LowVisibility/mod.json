@@ -36,9 +36,9 @@
             "MimeticUsesGhost" : true
         },
         "Sensors" : {
-            "MechTypeRange" : 20,
-            "VehicleTypeRange" : 18,
-            "TurretTypeRange" : 24,
+            "MechTypeRange" : 18,
+            "VehicleTypeRange" : 15,
+            "TurretTypeRange" : 20,
             "UnknownTypeRange" : 12,
             "MinimumRangeHexes" : 5,
             "SensorsOfflineAtSpawn" : true,
