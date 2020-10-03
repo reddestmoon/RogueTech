@@ -23,19 +23,19 @@
             "NoUniqueCheck": true,
             "ActiveByDefault": true,
             "ActivationMessage": "ECM",
-            "DeactivationMessage": "ECCM",
+            "DeactivationMessage": "Off/Stealth",
             "Linkage": {
                 "OnActivate": {
-                    "Activate": [],
-                    "Deactivate": []
-                },
-                "OnDeactivate": {
                     "Activate": [],
                     "Deactivate": [
                         "Stealth",
                         "Damper",
                         "Camouflage"
                     ]
+                },
+                "OnDeactivate": {
+                    "Activate": [],
+                    "Deactivate": []
                 }
             },
             "statusEffects": [
