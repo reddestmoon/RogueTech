@@ -2956,7 +2956,7 @@
 						{
 							"ConstantType": "CareerMode",
 							"ConstantName": "FactionReputation",
-							"ConstantValue": "AuriganRestoration:50"
+							"ConstantValue": "AuriganRestoration:50,AuriganDirectorate:50"
 						}
 					]
 				},
