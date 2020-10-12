@@ -2458,7 +2458,7 @@
 				},
 				{
 					"ID": "diff_PrimitiveVehicles",
-					"Name": "Primitive Vehicles",
+					"Name": "Primitive Tanks",
 					"TelemetryEventDesc": "",
 					"DifficultyValue": 0,
 					"CareerScoreModifier": 0,
@@ -2549,6 +2549,30 @@
 							"ConstantType": "CareerMode",
 							"ConstantName": "FactionReputation",
 							"ConstantValue": "MercenaryReviewBoard:150,AuriganPirates:-20"
+						}
+					]
+				},
+				{
+					"ID": "diff_Tanks",
+					"Name": "Tanks",
+					"TelemetryEventDesc": "",
+					"DifficultyValue": 0,
+					"CareerScoreModifier": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingSystems",
+							"ConstantValue": "Betelgeuse"
+						},
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "StartingRandomMechLists",
+							"ConstantValue": "itemCollection_Mechs_Starting_Tanks_VTOL,itemCollection_Mechs_Starting_Tanks_Medium_II,itemCollection_Mechs_Starting_Tanks_Medium,itemCollection_Mechs_Starting_Tanks_Light_II,itemCollection_Mechs_Starting_Tanks_Light"
+						},
+						{
+							"ConstantType": "CareerMode",
+							"ConstantName": "FactionReputation",
+							"ConstantValue": "Liao:25,MercenaryReviewBoard:25,AuriganMercenaries:25,AuriganPirates:-25"
 						}
 					]
 				},
@@ -3201,30 +3225,6 @@
 					]
 				},
 				{
-					"ID": "diff_ComTank",
-					"Name": "ComGuard Vehicles",
-					"TelemetryEventDesc": "",
-					"DifficultyValue": 0,
-					"CareerScoreModifier": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "CareerMode",
-							"ConstantName": "StartingSystems",
-							"ConstantValue": "TauCeti(NewEarth2116+)"
-						},
-						{
-							"ConstantType": "CareerMode",
-							"ConstantName": "StartingRandomMechLists",
-							"ConstantValue": "itemCollection_Mechs_Starting_Comguard_Light_Tank,itemCollection_Mechs_Starting_Comguard_Light_Tank,itemCollection_Mechs_Starting_Comguard_Medium_Tank,itemCollection_Mechs_Starting_Comguard_VLight,itemCollection_Mechs_Starting_Comguard_VMedium"
-						},
-						{
-							"ConstantType": "CareerMode",
-							"ConstantName": "FactionReputation",
-							"ConstantValue": "ComStar:50"
-						}
-					]
-				},
-				{
 					"ID": "diff_Wobbles",
 					"Name": "Word Of Blake",
 					"TelemetryEventDesc": "",
@@ -3240,30 +3240,6 @@
 							"ConstantType": "CareerMode",
 							"ConstantName": "StartingRandomMechLists",
 							"ConstantValue": "itemCollection_Mechs_Starting_WoB_Medium,itemCollection_Mechs_Starting_WoB_Light_A,itemCollection_Mechs_Starting_WoB_Light_B,itemCollection_Mechs_Starting_WoB_Light_C,itemCollection_Mechs_Starting_WoB_Light_D"
-						},
-						{
-							"ConstantType": "CareerMode",
-							"ConstantName": "FactionReputation",
-							"ConstantValue": "WordOfBlake:50"
-						}
-					]
-				},
-				{
-					"ID": "diff_WoBTank",
-					"Name": "Word Of Blake Vehicles",
-					"TelemetryEventDesc": "",
-					"DifficultyValue": 0,
-					"CareerScoreModifier": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "CareerMode",
-							"ConstantName": "StartingSystems",
-							"ConstantValue": "EC3040-B49A"
-						},
-						{
-							"ConstantType": "CareerMode",
-							"ConstantName": "StartingRandomMechLists",
-							"ConstantValue": "itemCollection_Mechs_Starting_WoB_Medium_Tank,itemCollection_Mechs_Starting_WoB_Light_Tank,itemCollection_Mechs_Starting_WoB_Light_Tank,itemCollection_Mechs_Starting_WoB_VLight,itemCollection_Mechs_Starting_WoB_VMedium"
 						},
 						{
 							"ConstantType": "CareerMode",
