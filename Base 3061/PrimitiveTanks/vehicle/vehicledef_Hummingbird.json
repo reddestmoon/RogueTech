@@ -111,7 +111,7 @@
       "ComponentDefID": "Weapon_Rotary_Rifle_Potatoe",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "prefabName": "yj_front_body_ac5_1",
+      "prefabName": "yj_front_body_ac5_2",
       "hasPrefabName": true,
       "DamageLevel": "Functional"
     },
@@ -120,7 +120,7 @@
       "ComponentDefID": "Weapon_Bomb_HE",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "prefabName": "yj_left_body_srm2_1",
+      "prefabName": "yj_left_body_srm2_2",
       "hasPrefabName": true,
       "DamageLevel": "Functional"
     },
