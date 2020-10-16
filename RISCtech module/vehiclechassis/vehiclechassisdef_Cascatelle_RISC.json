@@ -343,33 +343,33 @@
       "Tonnage": 0,
       "InventorySlots": 0,
       "MaxArmor": 241,
-      "InternalStructure": 30
+      "InternalStructure": 42
     },
     {
       "Location": "Left",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 0,
       "MaxArmor": 182,
-      "InternalStructure": 30
+      "InternalStructure": 42
     },
     {
       "Location": "Right",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 0,
       "MaxArmor": 182,
-      "InternalStructure": 30
+      "InternalStructure": 42
     },
     {
       "Location": "Rear",
@@ -382,7 +382,7 @@
       "Tonnage": 0,
       "InventorySlots": 0,
       "MaxArmor": 150,
-      "InternalStructure": 30
+      "InternalStructure": 42
     },
     {
       "Location": "Turret",
@@ -390,7 +390,7 @@
       "Tonnage": 0,
       "InventorySlots": 0,
       "MaxArmor": 25,
-      "InternalStructure": 30
+      "InternalStructure": 42
     }
   ]
 }

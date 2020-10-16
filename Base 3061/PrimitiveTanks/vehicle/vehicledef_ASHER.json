@@ -24,9 +24,9 @@
   "Description": {
     "Id": "vehicledef_ASHER",
     "Name": "Asher",
-    "Details": "A jack of all trades, the Medium tank is the generic stereotype of a tank. Carrying an array of ranged weapons, the Medium Tank is designed to support allied units from range.\n\n <b><color=#ffcc00>Hover: Fast on open ground and water, slow in rough terrain, not very agile.</color></b>\n\n <b><color=#ffcc00>ICE: Air breathing Combustion Engine. This unit can not deploy in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Movement: 8/12 Hex: 240/360 Meters.</color></b>\n\n<b>Armor:</b> Armor Primitive\n<b>Structure:</b> Primitive Structure\n<b>Values       A        S  </b>\n<b>Front</b>        75     25\n<b>Left</b>          75     25\n<b>Right</b>        75     25\n<b>Rear</b>         50     25\n<b>Turret</b>       70     25\n\n<b>Total</b>      345    125\n",
+    "Details": "A jack of all trades, the Medium tank is the generic stereotype of a tank. Carrying an array of ranged weapons, the Medium Tank is designed to support allied units from range.\n\n <b><color=#ffcc00>Hover: Fast on open ground and water, slow in rough terrain, not very agile.</color></b>\n\n <b><color=#ffcc00>ICE: Air breathing Combustion Engine. This unit can not deploy in thin atmosphere.</color></b>\n\n <b><color=#ffcc00>Movement: 8/12 Hex: 240/360 Meters.</color></b>\n\n<b>Armor:</b> Armor Primitive\n<b>Structure:</b> Primitive Structure\n<b>Values       A        S  </b>\n<b>Front</b>       260     25\n<b>Left</b>         125     25\n<b>Right</b>       125     25\n<b>Rear</b>         60     25\n<b>Turret</b>      170     25\n\n<b>Total</b>      740    125\n",
     "Icon": "Pegasus",
-    "Cost": 1744799,
+    "Cost": 1852500,
     "Rarity": 0,
     "Purchasable": false
   },
@@ -34,37 +34,37 @@
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 75,
+      "CurrentArmor": 260,
       "CurrentInternalStructure": 25,
-      "AssignedArmor": 75,
+      "AssignedArmor": 260,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Left",
-      "CurrentArmor": 75,
+      "CurrentArmor": 125,
       "CurrentInternalStructure": 25,
-      "AssignedArmor": 75,
+      "AssignedArmor": 125,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 75,
+      "CurrentArmor": 125,
       "CurrentInternalStructure": 25,
-      "AssignedArmor": 75,
+      "AssignedArmor": 125,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Rear",
-      "CurrentArmor": 50,
+      "CurrentArmor": 60,
       "CurrentInternalStructure": 25,
-      "AssignedArmor": 50,
+      "AssignedArmor": 60,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 70,
+      "CurrentArmor": 170,
       "CurrentInternalStructure": 25,
-      "AssignedArmor": 70,
+      "AssignedArmor": 170,
       "DamageLevel": "Functional"
     }
   ],
@@ -120,21 +120,21 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Rear",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Rear",
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Ammo_AmmunitionBox_Protected_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Ammo_AmmunitionBox_Protected_LRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -155,23 +155,10 @@
     },
     {
       "MountedLocation": "Front",
-      "ComponentDefID": "Gear_armorslots_Primitive",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Front",
       "ComponentDefID": "Tank_CrewCompartment",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Front",
-      "ComponentDefID": "Tank_PrimitiveStructure",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Left",
@@ -186,6 +173,19 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Gear_armorslots_Primitive",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Tank_PrimitiveStructure",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Turret",
@@ -204,34 +204,6 @@
     {
       "MountedLocation": "Rear",
       "ComponentDefID": "emod_engineslots_ICE_center",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Front",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Left",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Rear",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Rear",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
