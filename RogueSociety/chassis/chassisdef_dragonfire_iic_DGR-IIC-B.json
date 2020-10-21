@@ -114,7 +114,7 @@
     }
   ],
   "Description": {
-    "Cost": 10833113,
+    "Cost": 13240472,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -128,8 +128,9 @@
   "VariantName": "DGR-IIC-B",
   "ChassisTags": {
     "items": [
-      "SocietyMech",
-      "OmniMech"
+      "ClanMech",
+      "OmniMech",
+      "SocietyMech"
     ],
     "tagSetSourceFile": ""
   },

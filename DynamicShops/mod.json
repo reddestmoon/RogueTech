@@ -44,16 +44,11 @@
 					"the Coalition",
 					"the Directorate",
 					"the Magistracy",
-					"Valkyrate",
-					"Tortuga",
 					"Outworlds",
-					"Oberon",
 					"the Hegemony",
 					"Lothia",
 					"Illyria",
-					"Elysia",
-					"Circinus",
-					"Castile"
+					"Elysia"
 				]
 			},
 			{
@@ -61,8 +56,18 @@
 				"Members": [
 					"Valkyrate",
 					"Tortuga",
-					"Oberon",
-					"Circinus"
+					"Oberon"
+				]
+			},
+			{
+				"Name": "DeepPeriphery",
+				"Members": [
+					"JarnFolk",
+					"New Delphi",
+					"Hanse",
+					"Castile",
+					"Chainelane",
+					"Axumite"
 				]
 			},
 			{
