@@ -42,7 +42,7 @@
       ]
     }
   },
-  "weaponCategoryID": "SpecialHandHeld",
+  "weaponCategoryID": "SpecialMelee",
   "Type": "SRM",
   "WeaponSubType": "SRM2",
   "MinRange": 0,

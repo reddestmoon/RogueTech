@@ -30,5 +30,5 @@
    "ChassisTagsAccuracyModifiers": {
       "unit_vtol": -50
    },
-   "MissileHealth": 30
+   "MissileHealth": 25
 }

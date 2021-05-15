@@ -16,8 +16,8 @@
         },
         "BonusDescriptions": {
             "Bonuses": [
-                "ArrowVAmmo: 3",
-                "MissileHP: 30",
+                "ArrowVAmmo: 2",
+                "MissileHP: 25",
                 "AmmoCost: 1500"
             ]
         },
@@ -29,7 +29,7 @@
         }
     },
     "AmmoID": "Ammunition_ArrowV",
-    "Capacity": 3,
+    "Capacity": 2,
     "Description": {
         "Cost": 70000,
         "Rarity": 1,
