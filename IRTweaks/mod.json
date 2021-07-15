@@ -2,7 +2,7 @@
     "Name": "IRTweaks",
     "Enabled": true,
 	"Hidden": true,
-    "Version": "0.1.0",
+    "Version": "0.9.3.02",
     "Description": "Allows setting unique starting lances and faction bonuses through the difficulty menu",
     "Author": "IceRaptor",
     "Website": "https://github.com/IceRaptor/BTRandomStartByDifficultyMenu",
@@ -13,6 +13,7 @@
         "Debug" : false,
         "Trace" : false,
 		"Fixes": {
+			"AbilityResourceFix": true,
 			"AlternateMechNamingStyle": true,
 			"BuildingDamageColorChange": true,
 	                "BraceOnMeleeWithJuggernaut": true,
@@ -49,6 +50,11 @@
 			"UrbanExplosionsFix": true,
 			"WeaponTooltip": true
 		},
+		        "CheatDetection":{
+            "CheatDetection": true,
+            "CheatDetectionNotify": false,
+            "CheatDetectionStat": "CheatFoundS2"
+        },
 		"Abilities": {
 	                "FlexibleSensorLockId": "AbilityT8SensorLock",
 	                "JuggernautId" : "AbilityGu5Juggernaut",
@@ -113,7 +119,14 @@
         "Store" : {
             "QuantityOnShift" : 5,
             "QuantityOnControl" : 20
-        }
+        },
+        "Misc": {
+                       "DifficultyUIScaling": {
+                                "StartOnlyScalar": 40,
+                                "StartOnlyPositionY": 40,
+                                "RegularPositionY": 40
+                }
+         }
     },
 	"Manifest": [{
 			"Type": "ItemCollectionDef",

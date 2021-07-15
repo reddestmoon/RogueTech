@@ -42,7 +42,8 @@
         "FailStruct: 2",
         "FailReducPilot",
         "CarryWeight: X2",
-        "IsCockpit"
+        "IsCockpit",
+        "BleedReduction: 20%"
       ]
     },
     "Flags": {
@@ -50,6 +51,7 @@
         "not_broken",
         "no_salvage",
         "autorepair",
+	"ignore_shutdown",
         "default"
       ]
     },
@@ -340,6 +342,7 @@
       },
       "nature": "Buff",
       "statisticData": {
+	"effectsPersistAfterDestruction": true,
         "statName": "{location}.Structure",
         "operation": "Float_Add",
         "modValue": "5",
@@ -366,6 +369,7 @@
       },
       "nature": "Buff",
       "statisticData": {
+	"effectsPersistAfterDestruction": true,
         "statName": "{location}.Armor",
         "operation": "Float_Add",
         "modValue": "5",
@@ -425,10 +429,38 @@
         "modType": "System.Int32",
         "targetCollection": "Pilot"
       }
+    },
+    {
+      "durationData": {
+          "duration": -1,
+          "stackLimit": -1
+      },
+      "targetingData": {
+          "effectTriggerType": "Passive",
+          "effectTargetType": "Creator",
+          "showInTargetPreview": false,
+          "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+          "Id": "CockpitBleed",
+          "Name": "Bleed reduction",
+          "Details": "Bleed Rate x 0.6",
+          "Icon": "blood"
+      },
+      "nature": "Buff",
+      "statisticData": {
+          "statName": "BleedingRateMulti",
+          "operation": "Float_Multiply",
+          "modValue": "0.8",
+          "modType": "System.Single",
+          "targetCollection": "Pilot"
+      }
     }
   ],
   "ComponentTags": {
     "items": [
+      "ignore_shutdown",
       "component_type_stock",
       "BLACKLISTED",
       "TSM"

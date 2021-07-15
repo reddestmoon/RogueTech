@@ -45,6 +45,7 @@
                 "AllSkills: 1",
                 "EvaMax: +1",
                 "EvaPips: +1",
+		"NightVision",
                 "SureFoot",
                 "StabDamageTaken: -20%",
                 "GyroStab: 40",
@@ -54,7 +55,8 @@
                 "ArmorTPCost: -50%",
                 "StructureTPCost: -50%",
                 "ArmorCBCost: +20%",
-                "StructureCBCost: +25%"
+                "StructureCBCost: +25%",
+                "BleedReduction: 50%"
             ]
         },
         "Sorter": {
@@ -67,6 +69,7 @@
             "flags": [
                 "not_broken",
                 "no_salvage",
+		"ignore_shutdown",
                 "autorepair"
             ]
         },
@@ -98,6 +101,29 @@
     "DisallowedLocations": "All",
     "CriticalComponent": false,
     "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator"
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "NightVision",
+        "Name": "Night Vision Mode",
+        "Details": "PASSIVE: Enables Night Vision.",
+        "Icon": "uixSvgIcon_ability_precisionstrike"
+      },
+      "statisticData": {
+        "statName": "LV_NIGHT_VISION",
+        "operation": "Set",
+        "modValue": "true",
+        "modType": "System.Boolean"
+      },
+      "nature": "Buff"
+    },
         {
             "durationData": {
                 "duration": -1,
@@ -435,10 +461,63 @@
                 "modValue": "1.05",
                 "modType": "System.Single"
             }
-        }
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+            },
+            "targetingData": {
+                "effectTargetsCreator": true,
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator"
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "Torso-Mounted",
+                "Name": "isTorsoMount",
+                "Details": "Torso mounted cockpit, no injuries on head hits.",
+                "Icon": "uixSvgIcon_equipment_Cockpit"
+            },
+            "nature": "Debuff",
+            "statisticData": {
+                "statName": "isTorsoMount",
+                "operation": "Set",
+                "modValue": "true",
+                "modType": "System.Boolean"
+            }
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "CockpitBleed",
+                "Name": "Bleed reduction",
+                "Details": "Bleed Rate x 0.6",
+                "Icon": "blood"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "statName": "BleedingRateMulti",
+                "operation": "Float_Multiply",
+                "modValue": "0.5",
+                "modType": "System.Single",
+                "targetCollection": "Pilot"
+            }
+          }
     ],
     "ComponentTags": {
         "items": [
+            "ignore_shutdown",
             "component_type_stock",
             "BLACKLISTED"
         ],

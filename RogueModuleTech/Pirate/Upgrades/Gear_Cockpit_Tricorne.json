@@ -15,7 +15,8 @@
       "Bonuses": [
         "Initiative: +1",
         "ArmoredCowl: 30",
-        "IsCockpit"
+        "IsCockpit",
+        "BleedReduction: 20%"
       ]
     },
     "InventorySorter": {
@@ -23,6 +24,7 @@
     },
     "Flags": {
       "flags": [
+	"ignore_shutdown",
         "not_broken"
       ]
     }
@@ -74,6 +76,7 @@
       },
       "nature": "Buff",
       "statisticData": {
+	"effectsPersistAfterDestruction": true,
         "statName": "{location}.Structure",
         "operation": "Float_Add",
         "modValue": "30",
@@ -100,6 +103,7 @@
       },
       "nature": "Buff",
       "statisticData": {
+	"effectsPersistAfterDestruction": true,
         "statName": "{location}.Armor",
         "operation": "Float_Add",
         "modValue": "30",
@@ -156,10 +160,38 @@
       "vfxData": null,
       "instantModData": null,
       "poorlyMaintainedEffectData": null
+    },
+    {
+      "durationData": {
+          "duration": -1,
+          "stackLimit": -1
+      },
+      "targetingData": {
+          "effectTriggerType": "Passive",
+          "effectTargetType": "Creator",
+          "showInTargetPreview": false,
+          "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+          "Id": "CockpitBleed",
+          "Name": "Bleed reduction",
+          "Details": "Bleed Rate x 0.6",
+          "Icon": "blood"
+      },
+      "nature": "Buff",
+      "statisticData": {
+          "statName": "BleedingRateMulti",
+          "operation": "Float_Multiply",
+          "modValue": "0.8",
+          "modType": "System.Single",
+          "targetCollection": "Pilot"
+      }
     }
   ],
   "ComponentTags": {
     "items": [
+      "ignore_shutdown",
       "component_type_stock",
       "lv-scrambler_m1"
     ],

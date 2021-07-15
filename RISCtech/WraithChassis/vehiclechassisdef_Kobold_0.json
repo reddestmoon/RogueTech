@@ -11,7 +11,7 @@
     "MoveClamp": 0.5
   },
   "Description": {
-    "Cost": 13755635,
+    "Cost": 13181885,
     "Rarity": 0,
     "Purchasable": false,
     "UIName": "Kobold 0",
@@ -24,9 +24,9 @@
   "MovementCapDefID": "movedef_11-17cv",
   "movementType": "Wheeled",
   "PathingCapDefID": "pathingdef_light_hover",
-  "HardpointDataDefID": "hardpointdatadef_tempestmlrs",
-  "PrefabIdentifier": "chrprfvhcl_tempestmlrs",
-  "PrefabBase": "tempestmlrs",
+  "HardpointDataDefID": "hardpointdatadef_saracen",
+  "PrefabIdentifier": "chrprfvhcl_saracen",
+  "PrefabBase": "saracen",
   "Tonnage": 35,
   "weightClass": "LIGHT",
   "BattleValue": 800,

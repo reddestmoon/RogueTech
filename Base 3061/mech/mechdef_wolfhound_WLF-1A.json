@@ -8,7 +8,7 @@
       "unit_lance_vanguard",
       "unit_role_scout",
       "unit_generic",
-      "unit_bracket_low",
+      "unit_bracket_med",
       "INVALID_UNSET",
       "NoFaction",
       "Player1sMercUnit",
@@ -50,7 +50,18 @@
       "SecuritySolutionsInc",
       "PaladinProtectionLLC",
       "HouseKhulan",
-      "Solaris7"
+      "Solaris7",
+      "ai_heat_high",
+      "ai_dfa_low",
+      "ai_melee_normal",
+      "ai_flank_normal",
+      "ai_lance_normal",
+      "ai_lethalself_normal",
+      "ai_move_normal",
+      "ai_priority_normal",
+      "ai_reserve_normal",
+      "ai_shooting_low",
+      "ai_surrounded_normal"
     ],
     "tagSetSourceFile": ""
   },

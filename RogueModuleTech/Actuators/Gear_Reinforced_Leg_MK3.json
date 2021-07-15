@@ -39,6 +39,7 @@
     },
     "Flags": {
       "flags": [
+	"ignore_shutdown",
         "not_broken"
       ]
     }
@@ -177,6 +178,7 @@
   ],
   "ComponentTags": {
     "items": [
+      "ignore_shutdown",
       "component_type_stock"
     ],
     "tagSetSourceFile": ""

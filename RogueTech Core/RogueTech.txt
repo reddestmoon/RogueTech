@@ -53,8 +53,6 @@ KNOWN ISSUES - READ THEM!
 
 - If you go into career and cant open the mechbay.  Restart your game. If that failed, Please make a ticket
 
-- Item effects descriptions are not displayed in the mechlab - restart the game without updating, happens after update
-
 - Ams laser animation sometimes doesn't go away.  We are sending in comstar security to arrest it for indecent ams laser exposure.
 
 - Weapon panel sometimes doesn't appear when selecting a mech. Pressing escape to Deselect and trying again a couple times generally fixes it.
@@ -82,14 +80,176 @@ KNOWN ISSUES - READ THEM!
 - GaW offline mode is unsupported, as GaW developer burned out. Please do not report any bugs with contract generation/system ownership in offline mode, we cant fix them.
    You can fix most of this issues by flipping "ResetMap": to true in GalaxyAtWar/mod.json. Disable safelaunch, start game, advance time, save, close, revert ResetMap back to false. 
 
-- All careers started between mid january (1.1.0.0) and 1.1.1.3 will experience problems on online map with priority missions not generating and results not posting when in a direct jump vicinity of certain star system (with non-ascii names). 
-   Unfortunately this bug cannot be fixed in existing career.
+- LAMs takes damage when building under them are destroyed
 
+- Memorial doesnt always show the name of the mech pilot died in
+
+- When using Manual Deploy, do not make you first move in a phase where you mechs share initiative with AI units, reserve in that case.
+
+- Do not move your last mech into evac zone by melee attack on target in evac zone, game will softlock.
+
+- Limit yourself to 10 units max on Target Acquisition contracts, all 12 will not fit in the extraction point...extractions are part of the map, we currently can not change those.
 
 
 
 
 ========
+**RogueTech Treadnought** 1.1.6.7
+Disabled cheat detection feedback, we got our info, thanks.
+
+
+**RogueTech Treadnought** 1.1.6.6
+New Activated Ability - Fisrt Aid (all pilots get it, stops bleeding for 1 turn, can only be used before doing anything and ends turn)
+Enhanced LRMs rebalanced
+Fix Rep-Me
+Enabled cheat detection feedback, to help with recent false postives (if you get a pop-up "I think you are cheating" and you are not, well, cheating, pls gather logs immediately and make a ticket on discord)
+Some minor fixes
+
+
+**RogueTech Treadnought** 1.1.6.5
+New TBAS and AR (fix for vehicle pilots randomly dying)
+
+
+**RogueTech Treadnought** 1.1.6.4
+New TBAS (bug fixes)
+
+**RogueTech Treadnought** 1.1.6.3
+New TBAS (now pilots from destroyed vehicles will take at least one injury + fix some bugs)
+Laser HeatSinks update 
+  added special "Engine LHS +X" items, that actually work with LHS unlike normal ones
+  no longer compatible with any other engine HS slot gear
+  no longer compatible with any acivated temporary HSCapacity gear (coolantpods, emergency coolants etc)
+Some minor fixes
+
+
+**RogueTech Treadnought** 1.1.6.2
+Fix 10% sell price issue
+Some minor fixes
+
+**RogueTech Treadnought** 1.1.6.1
+Fix sell/scrap values changing after starting new career. Unfortunately, existing careers keep wrong sell value, you will have to start new career if you want different one.
+New TBAS (should fix corner cases of wrong turn number to bleedout shown)
+
+
+**RogueTech Treadnought** 1.1.6.0
+S2 Online Map
+Argo Upgrades changed.
+  Adjustments **ONLY** have an effect on NEW careers.
+  MedTech boosted due to more injuries.
+  MechTech lowered slightly.
+Some minor fixes
+
+
+**RogueTech Treadnought** 1.1.5.8
+TBAS update (fix crazy bleedout floaties, for real and event caused injuries)
+SBI update (removed initiative penalties from melee victims)
+CU nad CBTBE update (better handling of potential softlocks)
+QS ThermalMass should now work as intended
+Some new mechs and vehicles
+Some minor fixes
+
+
+**RogueTech Treadnought** 1.1.5.7
+TBAS update (fix crazy bleedout floaties)
+Some minor fixes
+
+**RogueTech Treadnought** 1.1.5.6
+TBAS update (more logging in attempt to catch softlock cause)
+Some new mechs
+Some minor fixes
+
+**RogueTech Treadnought** 1.1.5.5
+Even more CustomLocalisation fixes
+Revert CAE (fix invisible mines)
+Some minor fixes
+
+**RogueTech Treadnought** 1.1.5.4
+New MissionControl (bugfix)
+Some new mechs
+Some minor fixes
+
+**RogueTech Treadnought** 1.1.5.3
+Even more CustomLocalisation fixes
+
+**RogueTech Treadnought** 1.1.5.2
+CustomLocalisation fixes (blame Russians)
+
+**RogueTech Treadnought** 1.1.5.1
+Roll back CustomLocalisation as it was breaking online map for new careers. All careers started on 1.1.5.0 are broken and should be abandoned.
+
+**RogueTech Treadnought** 1.1.5.0
+Added TisButAScratch (Injuries now are complex and can result in a siginfucantly longer medbay times)
+Reduced Pilot Fatigue to compensate for TBAS
+DNI/EI now deals pilot damage on structue damage to mech instead of overheat (as it should according to TT, thanks to TBAS)
+New MissionControl (fixes some bugs, most notably you can now fail story flashpoints)
+Clustering bonuses nerfed across the board (due to incorrect undestanding of how they work we had ridiculously large values on everything, resulting in 90%+ hits to a single location from any one bonus, now you can only get close to this by collecting all of them)
+Most AMS defaults to overload now to help AI
+Heavy MRMs nerfed a little (more heat)
+Some mech moved to correct era (If you had DarkAge enabled but not Republic, you need to enable Republic now)
+Some new mechs and vehicles
+Lots of minor fixes
+
+**RogueTech Treadnought** 1.1.4.9
+New CBTBE and CleverGirl (more attempts to fix AI weidness)
+Some minor fixes
+
+**RogueTech Treadnought** 1.1.4.8
+New CBTBE and CleverGirl (more attempts to fix AI melee weidness, fix to melee states not reseting fully on new round)
+Acid Ammo rebalance (it now does more armor damage, but debuff is weaker or removed completely)
+Mobility ability changed (to +50% run +2 max evapips, old variant had an unfixable in short term bug)
+AMS HE ammo buffed
+Lots of missing affinities added
+Some new mechs and vehicles
+Some minor fixes
+
+
+**RogueTech Treadnought** 1.1.4.7
+AMS rebalance (AMS were dealing more damage than their descriptions told, this was fixed, some other stats upped to reduce the nerf. It still a noticable nerf, especialy to ballistic AMS. Also AMS CL and HE ammo and AMS affinities now correctly do what their description says)
+New CBTBE (yet another attempt to fix AI melee issue causing softlocks)
+New LowVis (Thermal Vision actually works now)
+Some minor fixes
+
+**RogueTech Treadnought** 1.1.4.6
+New CBTBE (potential fix for another AI melee issue causing softlocks)
+Some minor fixes
+
+**RogueTech Treadnought** 1.1.4.5
+Some new vechiles
+Some minor fixes
+
+**RogueTech Treadnought** 1.1.4.4
+Potential fix for AI melee issue causing softlocks
+Some minor fixes
+
+**RogueTech Treadnought** 1.1.4.3
+Fix some broken FP contracts
+
+**RogueTech Treadnought** 1.1.4.2
+Some minor fixes
+
+**RogueTech Treadnought** 1.1.4.1
+Requires Launcher 1.12.15
+Added RolePlayer (new mod that allow fine tuning AI on per mech basis. Initial values applied. Theoreticaly AI shoudl behave smarter - snipers snipe, brawlers advance, not overcooking themselfs for no reason, etc. If you see AI doing something weird pls make ticket)
+New ME+CC (fixed 2 years old bug with bonus descriptions "yellow text" missing on first load after update)
+New MechAffinity (bonus health from pilot quirks now correctly treated as permanent, not temporary, and no longer prevent injuries)
+Artillery nerfed a little, evapips based
+Some new mechs and models
+Lots of minor fixes
+
+**RogueTech Treadnought** 1.1.4.0
+New CBTBE (should fix melee UI issues)
+New MechAffinity (fix vehicle affinities mixing everything on same prefab, all exitsing vehicle affinities are be lost)
+Some new mechs and models
+Some minor fixes
+
+**RogueTech Treadnought** 1.1.3.9
+Rollback CBTBE (it broke turrets)
+
+**RogueTech Treadnought** 1.1.3.8
+New CBTBE (should fix melee UI issues)
+Railguns nerfed a little
+Lots of minor fixes
+
 **RogueTech Treadnought** 1.1.3.7
 Fix partial movement bug
 

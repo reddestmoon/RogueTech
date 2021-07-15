@@ -16,7 +16,18 @@
       "locals",
       "LocalsBrockwayRefugees",
       "FlakJackals",
-      "Solaris7"
+      "Solaris7",
+      "ai_heat_normal",
+      "ai_dfa_normal",
+      "ai_melee_normal",
+      "ai_flank_high",
+      "ai_lance_normal",
+      "ai_lethalself_normal",
+      "ai_move_normal",
+      "ai_priority_high",
+      "ai_reserve_normal",
+      "ai_shooting_low",
+      "ai_surrounded_normal"
     ],
     "tagSetSourceFile": ""
   },
@@ -165,7 +176,7 @@
     },
     {
       "MountedLocation": "Head",
-      "ComponentDefID": "Gear_TargetingTrackingSystem_RCA_InstaTrac-X",
+      "ComponentDefID": "Gear_Sensors_ECM",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "SimGameUID": "",
@@ -175,7 +186,7 @@
     },
     {
       "MountedLocation": "Head",
-      "ComponentDefID": "Gear_Sensors_ECM",
+      "ComponentDefID": "Gear_TargetingTrackingSystem_RCA_InstaTrac-X",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "SimGameUID": "",

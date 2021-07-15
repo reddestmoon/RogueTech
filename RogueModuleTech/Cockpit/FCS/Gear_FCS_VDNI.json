@@ -27,7 +27,7 @@
         "Recoil: -1",
         "PilotShutDown",
         "Activatable",
-        "ActivePilotOverheat",
+        "ActivePilotStructureInjury",
         "ActiveInitiative: +1",
         "ActiveEvaMax: +1",
         "ActiveCalledShot: +10%",
@@ -37,7 +37,8 @@
         "FailCritLoc",
         "FailReducPilot",
         "FCS",
-        "IsCockpit"
+        "IsCockpit",
+        "BleedReduction: 40%"
       ]
     },
     "InventorySorter": {
@@ -78,10 +79,10 @@
           },
           "nature": "Debuff",
           "statisticData": {
-            "statName": "ReceiveHeatDamageInjury",
-            "operation": "Set",
-            "modValue": "true",
-            "modType": "System.Boolean"
+              "statName": "InjureOnStructDmg",
+              "operation": "Set",
+              "modValue": "true",
+              "modType": "System.Boolean"
           }
         },
         {
@@ -338,6 +339,33 @@
         "operation": "Float_Add",
         "modValue": "-2.0",
         "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+          "duration": -1,
+          "stackLimit": -1
+      },
+      "targetingData": {
+          "effectTriggerType": "Passive",
+          "effectTargetType": "Creator",
+          "showInTargetPreview": false,
+          "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+          "Id": "CockpitBleed",
+          "Name": "Bleed reduction",
+          "Details": "Bleed Rate x 0.6",
+          "Icon": "blood"
+      },
+      "nature": "Buff",
+      "statisticData": {
+          "statName": "BleedingRateMulti",
+          "operation": "Float_Multiply",
+          "modValue": "0.6",
+          "modType": "System.Single",
+          "targetCollection": "Pilot"
       }
     }
   ],

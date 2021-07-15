@@ -6,7 +6,7 @@
       "unit_light",
       "unit_lance_assassin",
       "unit_role_sniper",
-      "unit_bracket_low",
+      "unit_bracket_med",
       "unit_generic",
       "unit_quicsell",
       "unit_indirectFire",
@@ -27,7 +27,18 @@
       "jarnfolk",
       "hanse",
       "aurigandirectorate",
-      "auriganrestoration"
+      "auriganrestoration",
+      "ai_heat_low",
+      "ai_dfa_low",
+      "ai_melee_low",
+      "ai_flank_low",
+      "ai_lance_normal",
+      "ai_lethalself_high",
+      "ai_move_low",
+      "ai_priority_normal",
+      "ai_reserve_high",
+      "ai_shooting_high",
+      "ai_surrounded_high"
     ],
     "tagSetSourceFile": ""
   },

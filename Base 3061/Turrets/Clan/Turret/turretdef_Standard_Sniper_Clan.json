@@ -9,7 +9,7 @@
     "Rarity": 0,
     "Purchasable": false
   },
-  "ChassisID": "turretchassisdef_Standard_sniper_Clan",
+  "ChassisID": "turretchassisdef_Standard_Sniper_Clan",
   "TurretTags": {
     "items": [
       "unit_aaa",
@@ -158,7 +158,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Chem_Medium",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

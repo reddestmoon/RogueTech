@@ -17,7 +17,8 @@
 				"SkillTactics: 2",
 				"ArmoredCowl: 5",
 				"AdvancedSensors: 1",
-                "IsCockpit"
+                "IsCockpit",
+                "BleedReduction: 40%"
             ]
         },
         "InventorySorter": {
@@ -28,6 +29,7 @@
                 "default",
                 "not_broken",
                 "no_salvage",
+		"ignore_shutdown",
                 "autorepair"
             ]
         },
@@ -168,6 +170,7 @@
             },
             "nature": "Buff",
             "statisticData": {
+		"effectsPersistAfterDestruction": true,
                 "statName" : "{location}.Structure",
                 "operation" : "Float_Add",
                 "modValue" : "5",
@@ -194,15 +197,44 @@
             },
             "nature": "Buff",
             "statisticData": {
+		"effectsPersistAfterDestruction": true,
                 "statName" : "{location}.Armor",
                 "operation" : "Float_Add",
                 "modValue" : "5",
                 "modType" : "System.Single"
             }
-        }
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "CockpitBleed",
+                "Name": "Bleed reduction",
+                "Details": "Bleed Rate x 0.6",
+                "Icon": "blood"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "statName": "BleedingRateMulti",
+                "operation": "Float_Multiply",
+                "modValue": "0.6",
+                "modType": "System.Single",
+                "targetCollection": "Pilot"
+            }
+          }
     ],
     "ComponentTags": {
         "items": [
+            "ignore_shutdown",
             "component_type_stock",
             "Blacklisted"
         ],
