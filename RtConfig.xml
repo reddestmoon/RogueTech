@@ -1338,7 +1338,7 @@
 			<canSelect>true</canSelect>
 			<difficultyModifier>0.0</difficultyModifier>
 			<excludePaths>log.txt</excludePaths>
-			<isSelected>false</isSelected>
+			<isSelected>true</isSelected>
 			<jobType>NoOp</jobType>
 			<optionGroupId>AutoSort</optionGroupId>
 			<promptConfirmation>false</promptConfirmation>
@@ -1351,10 +1351,10 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>SortByCost</Id>
-			<canSelect>true</canSelect>
+			<canSelect>false</canSelect>
 			<difficultyModifier>0.0</difficultyModifier>
 			<excludePaths>log.txt</excludePaths>
-			<isSelected>true</isSelected>
+			<isSelected>false</isSelected>
 			<jobType>MultiComponentInstall</jobType>
 			<optionGroupId>AutoSort</optionGroupId>
 			<promptConfirmation>false</promptConfirmation>
@@ -1367,7 +1367,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>SortByTonnage</Id>
-			<canSelect>true</canSelect>
+			<canSelect>false</canSelect>
 			<difficultyModifier>0.0</difficultyModifier>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
@@ -1383,7 +1383,7 @@
 		</InstallTask>
 		<InstallTask>
 			<Id>SortByName</Id>
-			<canSelect>true</canSelect>
+			<canSelect>false</canSelect>
 			<difficultyModifier>0.0</difficultyModifier>
 			<excludePaths>log.txt</excludePaths>
 			<isSelected>false</isSelected>
