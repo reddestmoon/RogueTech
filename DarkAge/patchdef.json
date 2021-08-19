@@ -1,0 +1,15 @@
+{
+  "version" : 1,
+  "patches" : [
+    {
+      "targetFile" : "MissionControl/config/AdditionalLances/Difficulty10.json",
+      "priority" : 2,
+      "patch" : {
+        "Enemy": {
+          "Max": 3,
+          "ChanceToSpawn": 0.75
+        }
+      }
+    }
+  ]
+}
