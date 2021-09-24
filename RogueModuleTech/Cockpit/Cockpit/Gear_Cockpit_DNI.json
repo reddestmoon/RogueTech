@@ -14,8 +14,8 @@
     "BonusDescriptions": {
       "Bonuses": [
         "AcePilot",
-        "SkillGunnery: 1",
-        "SkillPiloting: 1",
+        "SkillGunnery: +1",
+        "SkillPiloting: +1",
         "NightVision",
         "Activatable",
         "ActivePilotStructureInjury",

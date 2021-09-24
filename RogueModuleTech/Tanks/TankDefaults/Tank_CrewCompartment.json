@@ -8,7 +8,7 @@
     "BonusDescriptions": {
       "Bonuses": [
         "VitalComponent",
-        "SkillTactics: 1",
+        "SkillTactics: +1",
         "Resolve: +2",
         "IsCockpit",
         "CritRes: -10%"

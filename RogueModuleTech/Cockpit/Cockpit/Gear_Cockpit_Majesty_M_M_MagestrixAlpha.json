@@ -14,7 +14,7 @@
     "BonusDescriptions": {
       "Bonuses": [
         "Sight2: 80",
-        "SkillGunnery: 1",
+        "SkillGunnery: +1",
         "IsCockpit",
         "BleedReduction: 20%"
       ]

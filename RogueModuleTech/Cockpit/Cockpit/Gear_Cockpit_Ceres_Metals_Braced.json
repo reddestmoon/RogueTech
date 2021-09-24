@@ -14,7 +14,7 @@
     "BonusDescriptions": {
       "Bonuses": [
         "Health: +1",
-        "SkillGuts: 1",
+        "SkillGuts: +1",
         "ArmoredCowl: 5",
         "IsCockpit",
         "BleedReduction: 20%"

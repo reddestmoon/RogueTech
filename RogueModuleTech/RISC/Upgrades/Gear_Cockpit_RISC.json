@@ -13,8 +13,8 @@
     },
     "BonusDescriptions": {
       "Bonuses": [
-        "SkillGuts: 1",
-        "SkillTactics: 2",
+        "SkillGuts: +1",
+        "SkillTactics: +2",
         "ArmoredCowl: 5",
         "AdvancedSensors: 1",
         "IsCockpit",
